@@ -1,10 +1,8 @@
 import { useTranslations, useLocale } from "next-intl";
-import Link from "next/link";
 import FogCanvas from "./FogCanvas";
 
 export default function Hero() {
   const t = useTranslations("hero");
-  const tc = useTranslations("cta");
   const locale = useLocale();
 
   return (
@@ -23,16 +21,10 @@ export default function Hero() {
           <br className="hidden sm:block" />
           {" "}{t("sub")}
         </p>
-        <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
-          <a
-            href={`mailto:contact@7dawn.ai?subject=${encodeURIComponent(tc("subject"))}`}
-            className="btn btn-primary px-7 py-3.5"
-          >
-            {t("ctaPrimary")}
+        <div className="flex justify-center">
+          <a href={`/${locale}#contact`} className="btn btn-primary px-7 py-3.5">
+            {t("cta")}
           </a>
-          <Link href={`/${locale}/download`} className="btn btn-secondary px-7 py-3.5">
-            {t("ctaSecondary")} →
-          </Link>
         </div>
       </div>
       <div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 font-mono text-[11px] uppercase tracking-[2px] text-white/30">

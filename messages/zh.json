@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "7dawn · 工业自进化 AI 工程师",
-    "description": "7dawn 让 AI 在工业现场真做工程:从概念设计到多物理场验证再到制造,越用越聪明。3Studio 面向高端制造团队,vibe CAE 面向工程师个人。"
+    "description": "7dawn 让 AI 在工业现场真做工程:从概念设计到多物理场验证再到制造。3Studio 是面向高端制造团队的 AI 工程工作台。"
   },
   "nav": {
     "products": "产品",
@@ -9,8 +9,7 @@
     "industries": "行业",
     "docs": "文档",
     "company": "公司",
-    "demo": "预约演示",
-    "tryVibe": "试用 vibe CAE"
+    "contact": "联系我们"
   },
   "contact": {
     "email": "EMAIL",
@@ -22,18 +21,10 @@
     "title2": "真做工程",
     "subEm": "一个会自我进化的工业工程引擎",
     "sub": "从概念设计到多物理场验证再到制造,越用越聪明。",
-    "ctaPrimary": "预约演示",
-    "ctaSecondary": "试用 vibe CAE",
+    "cta": "联系我们",
     "scroll": "SCROLL"
   },
   "trust": {
-    "gaia": {
-      "value": "GAIA 全球第一",
-      "metric": "91.36",
-      "note": "同一套自研 Agent 内核,在通用工程任务上全球登顶(截至 2026-02)",
-      "linkLabel": "查看榜单",
-      "href": "https://huggingface.co/spaces/gaia-benchmark/leaderboard"
-    },
     "leak": {
       "value": "验证漏测率 ↓ 70%",
       "note": "航天测试矩阵场景 · 内部基准,非全局承诺"
@@ -100,21 +91,14 @@
     "whyNow": "为什么是现在:模型从问答走向执行、工业软件走向 AI 原生层、政策明确推进工业智能体——窗口正在打开。"
   },
   "products": {
-    "titleBefore": "同一个自进化 Agent 平台,",
-    "titleEm": "两种用法",
+    "titleBefore": "7dawn 的旗舰产品 —— ",
+    "titleEm": "3Studio",
     "titleAfter": "。",
-    "lead": "7dawn 是底座;面向不同的人,有两个入口。",
+    "lead": "面向高端制造团队的航天级 AI 工程工作台。",
     "studio": {
       "name": "3Studio",
-      "for": "面向高端制造团队 · 大 B",
-      "desc": "航天级 AI 工程工作台——让工程团队带着 Agent 做设计、验证、流程、运维,全程治理可审计。",
-      "cta": "预约演示"
-    },
-    "vibe": {
-      "name": "vibe CAE",
-      "for": "面向工程师个人 · 自助",
-      "desc": "自然语言驱动多物理场仿真——上传 CAD / STEP 即跑。",
-      "cta": "试用"
+      "for": "面向高端制造团队",
+      "desc": "让工程团队带着 Agent 做设计、验证、流程、运维,全程治理可审计。"
     }
   },
   "capability": {
@@ -139,7 +123,6 @@
     "titleEm": "会自我进化的工业工程引擎",
     "titleAfter": "。",
     "lead": "每一次人工审核、每一次 Agent 执行都在喂养知识引擎:M0 即时记忆 → M1 项目记忆 → M2 组织记忆,叠加端到端 RL,让 Agent 越用越懂你的工程。",
-    "evidence": "能力底气来自公开榜单:自研 Agent 内核登顶 GAIA 全球第一(91.36)。",
     "future": "终局是工业现场的“越用越聪明”飞轮——用得越多,工程数据越厚,模型越强。(能力随部署持续演进)",
     "mechanism": {
       "0": { "k": "M0 · 即时记忆", "v": "单次会话内的上下文与技能即时沉淀。" },
@@ -191,14 +174,13 @@
     "market": "从星箭样板间,到万亿级工业设计市场——能力轴纵深,行业轴横展。"
   },
   "cta": {
-    "kicker": "— 把最难的工程交给会进化的 AI —",
+    "kicker": "— 与 7dawn 团队聊聊 —",
     "titleBefore": "从最难的",
     "titleEm": "工业现场",
     "titleAfter": "开始。",
-    "lead": "大 B 团队预约 3Studio 演示;工程师个人可直接试用 vibe CAE。",
-    "primary": "预约演示",
-    "secondary": "试用 vibe CAE",
-    "subject": "预约 7dawn · 3Studio 演示"
+    "lead": "高端制造团队欢迎与我们联系,线下深入沟通需求与交付。",
+    "primary": "联系我们",
+    "subject": "7dawn · 3Studio 咨询"
   },
   "platform": {
     "illustrative": "示意数据 · ILLUSTRATIVE",
@@ -314,7 +296,6 @@
       "platform": "能力",
       "industries": "行业",
       "docs": "文档",
-      "download": "试用 vibe CAE",
       "company": "公司"
     }
   },
@@ -324,14 +305,6 @@
     "body": "7dawn 产品文档正在建设中。留下邮箱,上线第一时间通知你。",
     "cta": "联系我们",
     "subject": "7dawn 文档上线通知",
-    "back": "← 返回首页"
-  },
-  "download": {
-    "label": "// vibe CAE",
-    "title": "vibe CAE 即将开放",
-    "body": "vibe CAE 正在开放早期访问——自然语言驱动多物理场仿真,上传 CAD / STEP 即跑。申请加入早期访问名单。",
-    "cta": "申请早期访问",
-    "subject": "申请 vibe CAE 早期访问",
     "back": "← 返回首页"
   }
 }

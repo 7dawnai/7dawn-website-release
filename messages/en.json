@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "7dawn · The Self-Evolving Industrial AI Engineer",
-    "description": "7dawn makes AI do real engineering on the factory floor — from concept design to multiphysics validation to manufacturing, getting smarter the more you use it. 3Studio for engineering teams, vibe CAE for individual engineers."
+    "description": "7dawn makes AI do real engineering on the factory floor — from concept design to multiphysics validation to manufacturing. 3Studio is the AI engineering workspace for high-end manufacturing teams."
   },
   "nav": {
     "products": "Products",
@@ -9,8 +9,7 @@
     "industries": "Industries",
     "docs": "Docs",
     "company": "Company",
-    "demo": "Book a demo",
-    "tryVibe": "Try vibe CAE"
+    "contact": "Contact us"
   },
   "contact": {
     "email": "EMAIL",
@@ -22,18 +21,10 @@
     "title2": "— and evolves.",
     "subEm": "A self-evolving industrial engineering engine",
     "sub": "From concept design to multiphysics validation to manufacturing — gets smarter the more you use it.",
-    "ctaPrimary": "Book a demo",
-    "ctaSecondary": "Try vibe CAE",
+    "cta": "Contact us",
     "scroll": "SCROLL"
   },
   "trust": {
-    "gaia": {
-      "value": "#1 on GAIA",
-      "metric": "91.36",
-      "note": "Our in-house agent core tops the global GAIA benchmark on general engineering tasks (as of 2026-02)",
-      "linkLabel": "View leaderboard",
-      "href": "https://huggingface.co/spaces/gaia-benchmark/leaderboard"
-    },
     "leak": {
       "value": "Verification miss-rate ↓70%",
       "note": "Aerospace test-matrix scenario · internal baseline, not a global promise"
@@ -100,21 +91,14 @@
     "whyNow": "Why now: models moved from answering to executing, industrial software is going AI-native, and policy is actively pushing industrial agents — the window is opening."
   },
   "products": {
-    "titleBefore": "One self-evolving agent platform, ",
-    "titleEm": "two ways to use it",
+    "titleBefore": "7dawn’s flagship product —— ",
+    "titleEm": "3Studio",
     "titleAfter": ".",
-    "lead": "7dawn is the foundation; there are two entry points for two audiences.",
+    "lead": "An aerospace-grade AI engineering workspace for high-end manufacturing teams.",
     "studio": {
       "name": "3Studio",
-      "for": "For engineering teams · Enterprise",
-      "desc": "An aerospace-grade AI engineering workspace — let teams run design, verification, flow and operations with an agent crew, fully governed and auditable.",
-      "cta": "Book a demo"
-    },
-    "vibe": {
-      "name": "vibe CAE",
-      "for": "For individual engineers · Self-serve",
-      "desc": "Natural-language multiphysics simulation — upload CAD / STEP and run.",
-      "cta": "Try it"
+      "for": "For high-end manufacturing teams",
+      "desc": "Let engineering teams run design, verification, flow and operations with an agent crew, fully governed and auditable."
     }
   },
   "capability": {
@@ -139,7 +123,6 @@
     "titleEm": "a self-evolving industrial engineering engine",
     "titleAfter": ".",
     "lead": "Every human review and every agent run feeds the knowledge engine: M0 instant memory → M1 project memory → M2 organizational memory, plus end-to-end RL, so the agent learns your engineering the more you use it.",
-    "evidence": "The capability is grounded in a public benchmark: our in-house agent core tops GAIA worldwide (91.36).",
     "future": "The endgame is a “smarter the more you use it” flywheel on the factory floor — more use, thicker engineering data, stronger models. (Capability evolves with deployment.)",
     "mechanism": {
       "0": { "k": "M0 · Instant memory", "v": "Context and skills captured within a single session." },
@@ -191,14 +174,13 @@
     "market": "From the proving ground to a trillion-scale industrial design market — deep on the capability axis, wide on the industry axis."
   },
   "cta": {
-    "kicker": "— Hand the hardest engineering to an AI that evolves —",
+    "kicker": "— Talk to the 7dawn team —",
     "titleBefore": "Start from the hardest",
     "titleEm": "factory floor",
     "titleAfter": ".",
-    "lead": "Enterprise teams book a 3Studio demo; individual engineers can try vibe CAE directly.",
-    "primary": "Book a demo",
-    "secondary": "Try vibe CAE",
-    "subject": "Book a 7dawn · 3Studio demo"
+    "lead": "High-end manufacturing teams are welcome to reach out — we work closely with you on requirements and delivery.",
+    "primary": "Contact us",
+    "subject": "7dawn · 3Studio enquiry"
   },
   "platform": {
     "illustrative": "Illustrative data",
@@ -314,7 +296,6 @@
       "platform": "Platform",
       "industries": "Industries",
       "docs": "Docs",
-      "download": "Try vibe CAE",
       "company": "Company"
     }
   },
@@ -324,14 +305,6 @@
     "body": "7dawn product documentation is being built. Leave your email and we’ll notify you the moment it goes live.",
     "cta": "Contact us",
     "subject": "Notify me when 7dawn docs launch",
-    "back": "← Back to home"
-  },
-  "download": {
-    "label": "// vibe CAE",
-    "title": "vibe CAE — early access",
-    "body": "vibe CAE is opening early access — natural-language multiphysics simulation, upload CAD / STEP and run. Request a spot on the early-access list.",
-    "cta": "Request early access",
-    "subject": "Request vibe CAE early access",
     "back": "← Back to home"
   }
 }

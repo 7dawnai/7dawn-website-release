@@ -14,7 +14,6 @@ function Logo() {
 
 export default function Nav() {
   const t = useTranslations("nav");
-  const tc = useTranslations("cta");
   const locale = useLocale();
 
   const links = [
@@ -38,15 +37,9 @@ export default function Nav() {
         ))}
       </ul>
       <div className="flex items-center gap-3">
-        <a
-          href={`mailto:contact@7dawn.ai?subject=${encodeURIComponent(tc("subject"))}`}
-          className="btn btn-primary hidden px-4 py-2 md:inline-flex"
-        >
-          {t("demo")}
+        <a href={`/${locale}#contact`} className="btn btn-secondary hidden px-4 py-2 md:inline-flex">
+          {t("contact")}
         </a>
-        <Link href={`/${locale}/download`} className="btn btn-secondary hidden px-4 py-2 md:inline-flex">
-          {t("tryVibe")} →
-        </Link>
         <LangSwitch />
       </div>
     </nav>

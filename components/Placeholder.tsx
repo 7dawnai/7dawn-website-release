@@ -5,7 +5,7 @@ export default function Placeholder({
   ns,
   locale,
 }: {
-  ns: "docs" | "download";
+  ns: "docs";
   locale: string;
 }) {
   const t = useTranslations(ns);

@@ -31,7 +31,6 @@ export default function Evolution() {
               <h4 className="font-mono text-[11px] uppercase tracking-[2px] text-white/50">
                 {t("curveLabel")}
               </h4>
-              <span className="chip"><span className="pulse-dot" />GAIA #1</span>
             </div>
             <svg className="block h-[240px] w-full" viewBox="0 0 800 300" preserveAspectRatio="none" aria-hidden="true">
               <g stroke="rgba(255,255,255,0.08)" strokeWidth="1">
@@ -65,11 +64,6 @@ export default function Evolution() {
             ))}
           </div>
         </div>
-
-        {/* Public-benchmark evidence */}
-        <ScrollReveal className="mt-8 border-t border-white/20 pt-5">
-          <p className="font-mono text-[13px] leading-[1.6] tracking-[0.2px] text-white/70">{t("evidence")}</p>
-        </ScrollReveal>
       </div>
     </section>
   );

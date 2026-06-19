@@ -1,11 +1,9 @@
-import { useTranslations, useLocale } from "next-intl";
-import Link from "next/link";
+import { useTranslations } from "next-intl";
 import ScrollReveal from "./ScrollReveal";
 
 export default function CTAContact() {
   const t = useTranslations("cta");
   const tc = useTranslations("contact");
-  const locale = useLocale();
 
   return (
     <section id="contact" className="relative border-t border-white/10 px-6 py-20 md:px-12 md:py-32">
@@ -29,12 +27,6 @@ export default function CTAContact() {
               >
                 {t("primary")}
               </a>
-              <Link
-                href={`/${locale}/download`}
-                className="btn btn-secondary justify-center px-6 py-3.5"
-              >
-                {t("secondary")} →
-              </Link>
             </div>
           </div>
         </ScrollReveal>

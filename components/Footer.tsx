@@ -11,7 +11,6 @@ export default function Footer() {
     { href: `/${locale}#industries`, label: t("nav.industries") },
     { href: `/${locale}#company`, label: t("nav.company") },
     { href: `/${locale}/docs`, label: t("nav.docs"), route: true },
-    { href: `/${locale}/download`, label: t("nav.download"), route: true },
   ];
 
   return (
