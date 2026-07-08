@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import ScrollReveal from "./ScrollReveal";
 import SectionHeader from "./SectionHeader";
+import SpotlightCard from "./SpotlightCard";
 
 export default function Problem() {
   const t = useTranslations("problem");
@@ -27,7 +28,7 @@ export default function Problem() {
 
         <div className="grid grid-cols-1 gap-px bg-white/10 sm:grid-cols-2 md:grid-cols-3">
           {items.map((i) => (
-            <div
+            <SpotlightCard
               key={i}
               className="flex min-h-[200px] flex-col gap-3 bg-[#1f2228] px-6 py-7"
             >
@@ -40,7 +41,7 @@ export default function Problem() {
               <div className="mt-auto border-t border-dashed border-white/10 pt-3 font-mono text-[11px] tracking-[0.4px] text-white/50">
                 {t(`items.${i}.quant`)}
               </div>
-            </div>
+            </SpotlightCard>
           ))}
         </div>
 

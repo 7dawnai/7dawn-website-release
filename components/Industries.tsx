@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import ScrollReveal from "./ScrollReveal";
 import SectionHeader from "./SectionHeader";
+import SpotlightCard from "./SpotlightCard";
 
 // Fixed, language-neutral mono labels for the three content rows.
 // Body copy comes from i18n (pain / land / expand); these short caps stay constant across locales.
@@ -39,8 +40,9 @@ export default function Industries() {
         <ScrollReveal>
           <div className="grid grid-cols-1 gap-5 md:grid-cols-3">
             {items.map((k) => (
-              <article
+              <SpotlightCard
                 key={k}
+                as="article"
                 className="flex flex-col gap-4 border border-white/10 bg-white/[0.03] p-7"
               >
                 <div className="flex flex-col gap-2">
@@ -64,7 +66,7 @@ export default function Industries() {
                     </div>
                   ))}
                 </div>
-              </article>
+              </SpotlightCard>
             ))}
           </div>
         </ScrollReveal>
