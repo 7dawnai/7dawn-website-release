@@ -1,0 +1,29 @@
+{
+  "sections": [
+    {
+      "title": "快速上手",
+      "pages": [
+        { "path": "getting-started.md", "title": "快速上手" }
+      ]
+    },
+    {
+      "title": "功能指南",
+      "pages": [
+        { "path": "guides/chat.md", "title": "与 Agent 对话" },
+        { "path": "guides/agents.md", "title": "Agent 与会话管理" },
+        { "path": "guides/computer-panel.md", "title": "Computer 面板" },
+        { "path": "guides/files.md", "title": "工作区与文件" },
+        { "path": "guides/replay.md", "title": "回放" },
+        { "path": "guides/settings.md", "title": "设置与通知" },
+        { "path": "guides/matlab-stk.md", "title": "MATLAB 与 STK 集成" },
+        { "path": "guides/mbse.md", "title": "MBSE 系统建模" }
+      ]
+    },
+    {
+      "title": "常见问题",
+      "pages": [
+        { "path": "faq.md", "title": "常见问题" }
+      ]
+    }
+  ]
+}

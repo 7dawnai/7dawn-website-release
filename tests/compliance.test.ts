@@ -42,6 +42,7 @@ describe("compliance: no fundraising-deck leakage on the public site", () => {
   const files = [
     ...collectFiles("messages", [".json"]),
     ...collectFiles("components", [".tsx"]),
+    ...collectFiles("content", [".md", ".json"]),
   ];
   for (const f of files) {
     it(`${f} has no banned strings`, () => {
