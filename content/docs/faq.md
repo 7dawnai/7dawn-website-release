@@ -26,9 +26,9 @@ last_verified_commit: fce2e0fc9d79
 
 不能，回放不是屏幕录像。3Studio 记录的是 Agent 当时调用了哪些工具、参数是什么，回看时会按这份记录重新"跑"一遍，在 Computer 面板里重建出当时的工具调用、文件读写等状态，而不是真实屏幕像素的录制。另外截至目前的版本，界面里还没有一个入口可以直接打开某次已完成任务的回放视图——记录本身会在后台自动保存，但暂时无法从界面里回看、播放或跳转到某一步。详见《[回放](./guides/replay.md)》。
 
-## 为什么在 macOS 上找不到 MATLAB / STK 的设置？
+## 为什么在 macOS 上找不到 MATLAB / STK / Ansys 的设置？
 
-MATLAB 与 STK 集成目前只支持 Windows。在 macOS 或 Linux 上，设置页里"工具"标签下不会出现这部分内容，属于当前版本的既定限制，不是配置遗漏。详见《[MATLAB 与 STK 集成](./guides/matlab-stk.md)》。
+CAE/CAD 软件集成（MATLAB、STK、Ansys）目前只支持 Windows。在 macOS 或 Linux 上，设置页里"工具"标签下不会出现这部分内容，属于当前版本的既定限制，不是配置遗漏。详见《[支持的 CAE/CAD 软件：概览与通用设置](./guides/cae-overview.md)》。
 
 ## 怎么更换 Agent 使用的模型？
 

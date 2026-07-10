@@ -70,5 +70,6 @@ last_verified_commit: fce2e0fc9d79
 - 《[工作区与文件](./guides/files.md)》——工作区概念、多工作区切换、文件树操作。
 - 《[回放](./guides/replay.md)》——回看某次会话中 Computer 面板经历过的状态变化。
 - 《[设置与通知](./guides/settings.md)》——语言切换、模型配置等全局设置。
-- 《[MATLAB 与 STK 集成](./guides/matlab-stk.md)》——如果你需要用到 MATLAB 或 STK。
+- 《[MCP 扩展工具](./guides/mcp.md)》——给 Agent 接入外部工具。
+- 《[支持的 CAE/CAD 软件](./guides/cae-overview.md)》——如果你需要用到 MATLAB、STK 或 Ansys。
 - 《[常见问题](./faq.md)》——遇到问题先来这里看看。
