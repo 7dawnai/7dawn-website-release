@@ -1,13 +1,10 @@
-import { setRequestLocale } from "next-intl/server";
-import Placeholder from "@/components/Placeholder";
+import { redirect } from "next/navigation";
 
-export default async function DocsPage({
+export default async function DocsIndex({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  setRequestLocale(locale);
-
-  return <Placeholder ns="docs" locale={locale} />;
+  redirect(`/${locale}/docs/getting-started`);
 }
