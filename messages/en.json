@@ -298,13 +298,5 @@
       "docs": "Docs",
       "company": "Company"
     }
-  },
-  "docs": {
-    "label": "// DOCS",
-    "title": "Docs in progress",
-    "body": "7dawn product documentation is being built. Leave your email and we’ll notify you the moment it goes live.",
-    "cta": "Contact us",
-    "subject": "Notify me when 7dawn docs launch",
-    "back": "← Back to home"
   }
 }
